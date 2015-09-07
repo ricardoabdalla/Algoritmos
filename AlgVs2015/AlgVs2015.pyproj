@@ -5,8 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{cfd773df-adcc-4539-b012-a7b3ff92c318}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aula01\aula01-07.py</StartupFile>
-    <SearchPath />
+    <StartupFile>Aula01\aula01_12.py</StartupFile>
+    <SearchPath>Aula01\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
@@ -24,18 +24,25 @@
     <Folder Include="Aula01\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aula01\aula01-02.py" />
-    <Compile Include="Aula01\aula01-01.py">
+    <Compile Include="Aula01\aula01_02.py" />
+    <Compile Include="Aula01\aula01_01.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Aula01\aula01-03.py">
+    <Compile Include="Aula01\aula01_03.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Aula01\aula01-08.py" />
-    <Compile Include="Aula01\aula01-07.py" />
-    <Compile Include="Aula01\aula01-06.py" />
-    <Compile Include="Aula01\aula01-05.py" />
-    <Compile Include="Aula01\aula01-04.py">
+    <Compile Include="Aula01\aula01_12.py" />
+    <Compile Include="Aula01\aula01_11.py" />
+    <Compile Include="Aula01\aula01_10.py" />
+    <Compile Include="Aula01\aula01_09.py" />
+    <Compile Include="Aula01\aula01_08.py" />
+    <Compile Include="Aula01\aula01_07.py" />
+    <Compile Include="Aula01\aula01_06.py" />
+    <Compile Include="Aula01\aula01_05.py" />
+    <Compile Include="Aula01\aula01_04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Aula01\__init__.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
