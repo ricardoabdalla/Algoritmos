@@ -33,3 +33,5 @@ print(salario.getSalario())
 # Invocando método
 salario.aumentar(0.10)
 print(salario.getSalario())
+
+print()
