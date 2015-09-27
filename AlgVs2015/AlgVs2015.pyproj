@@ -55,6 +55,9 @@
     <Compile Include="Aula02\aula02_quickfind.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Aula02\aula02_quickunion.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Aula02\__init__.py" />
   </ItemGroup>
   <ItemGroup>
