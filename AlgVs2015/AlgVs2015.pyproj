@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{cfd773df-adcc-4539-b012-a7b3ff92c318}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aula02\aula02_01.py</StartupFile>
+    <StartupFile>Aula03\aula03_01.py</StartupFile>
     <SearchPath>Aula01\;Aula02\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="Aula01\" />
     <Folder Include="Aula02\" />
+    <Folder Include="Aula03\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aula01\aula01_02.py" />
@@ -59,9 +60,22 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Aula02\__init__.py" />
+    <Compile Include="Aula03\aula03_01.py" />
+    <Compile Include="Aula03\aula03_00.py" />
+    <Compile Include="Aula03\aula03_fatorial.py" />
+    <Compile Include="Aula03\aula03_3sum.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Aula03\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aula02\data-uf.txt" />
+    <Content Include="Aula03\100ints.txt" />
+    <Content Include="Aula03\1Kints.txt" />
+    <Content Include="Aula03\200ints.txt" />
+    <Content Include="Aula03\300ints.txt" />
+    <Content Include="Aula03\400ints.txt" />
+    <Content Include="Aula03\500ints.txt" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
