@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{cfd773df-adcc-4539-b012-a7b3ff92c318}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aula03\aula03_01.py</StartupFile>
+    <StartupFile>Aula04\aula04_00.py</StartupFile>
     <SearchPath>Aula01\;Aula02\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,6 +24,7 @@
     <Folder Include="Aula01\" />
     <Folder Include="Aula02\" />
     <Folder Include="Aula03\" />
+    <Folder Include="Aula04\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aula01\aula01_02.py" />
@@ -67,6 +68,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Aula03\__init__.py" />
+    <Compile Include="Aula04\aula04_stack.py" />
+    <Compile Include="Aula04\aula04_00.py" />
+    <Compile Include="Aula04\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aula02\data-uf.txt" />
