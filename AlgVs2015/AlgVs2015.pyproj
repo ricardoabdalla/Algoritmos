@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{cfd773df-adcc-4539-b012-a7b3ff92c318}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aula04\aula04_00.py</StartupFile>
+    <StartupFile>Aula04\aula04_01.py</StartupFile>
     <SearchPath>Aula01\;Aula02\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -68,6 +68,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Aula03\__init__.py" />
+    <Compile Include="Aula04\aula04_01.py" />
+    <Compile Include="Aula04\aula04_node.py" />
+    <Compile Include="Aula04\aula04_queue.py" />
     <Compile Include="Aula04\aula04_stack.py" />
     <Compile Include="Aula04\aula04_00.py" />
     <Compile Include="Aula04\__init__.py" />

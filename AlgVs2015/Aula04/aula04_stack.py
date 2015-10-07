@@ -1,4 +1,6 @@
-﻿class Stack(object):
+from aula04_node import Node
+
+class Stack(object):
     """Interface desejada para Stack"""
 
     def push(self, item):
@@ -32,11 +34,6 @@ class LinkedListStack(object):
     # Indica se a pilha encontra-se vazia
     def isEmpty(self):
         return self.__first == None
-
-class Node(object):
-    """Implementação de Nó para criação de lista ligada"""
-    item = None
-    next = None
 
 class ArrayStack(object):
     """Implementação de Stack utilizando array de tamanho fixo"""
