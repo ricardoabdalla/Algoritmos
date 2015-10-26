@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{cfd773df-adcc-4539-b012-a7b3ff92c318}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aula06\aula06_00.py</StartupFile>
+    <StartupFile>Aula07\aula07_00.py</StartupFile>
     <SearchPath>Aula01\;Aula02\;Aula05\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -27,6 +27,7 @@
     <Folder Include="Aula04\" />
     <Folder Include="Aula05\" />
     <Folder Include="Aula06\" />
+    <Folder Include="Aula07\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aula01\aula01_02.py" />
@@ -86,6 +87,9 @@
     <Compile Include="Aula06\aula06_quicksort.py" />
     <Compile Include="Aula06\aula06_mergesort.py" />
     <Compile Include="Aula06\__init__.py" />
+    <Compile Include="Aula07\aula07_00.py" />
+    <Compile Include="Aula07\aula07_binaryheap.py" />
+    <Compile Include="Aula07\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aula02\data-uf.txt" />
