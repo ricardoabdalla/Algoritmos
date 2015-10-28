@@ -67,11 +67,9 @@ class MaxPriorityQueue(object):
     def __print(self, k, depth):
 
         if k >= len(self.__items) or self.__items[k] == None:
-            #print("\t" * depth, "-")
             print("---" * depth, "*")
             return
 
-        #print("\t" * depth, self.__items[k])
         print("\t")
         print("---" * depth, self.__items[k])
 
