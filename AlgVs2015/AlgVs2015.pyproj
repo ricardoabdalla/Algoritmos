@@ -5,8 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{cfd773df-adcc-4539-b012-a7b3ff92c318}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Aula07\aula07_01.py</StartupFile>
-    <SearchPath>Aula01\;Aula02\;Aula05\</SearchPath>
+    <StartupFile>Aula08\aula08_00.py</StartupFile>
+    <SearchPath>Aula01\;Aula02\;Aula05\;Aula08\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
@@ -28,6 +28,7 @@
     <Folder Include="Aula05\" />
     <Folder Include="Aula06\" />
     <Folder Include="Aula07\" />
+    <Folder Include="Aula08\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aula01\aula01_02.py" />
@@ -92,6 +93,11 @@
     <Compile Include="Aula07\aula07_heapsort.py" />
     <Compile Include="Aula07\aula07_binaryheap.py" />
     <Compile Include="Aula07\__init__.py" />
+    <Compile Include="Aula08\aula08_00.py" />
+    <Compile Include="Aula08\aula08_binarysearchtree.py" />
+    <Compile Include="Aula08\aula08_key.py" />
+    <Compile Include="Aula08\aula08_node.py" />
+    <Compile Include="Aula08\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aula02\data-uf.txt" />
