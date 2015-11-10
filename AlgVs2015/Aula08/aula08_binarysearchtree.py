@@ -27,6 +27,10 @@ class BinarySearchTree(object):
         return node
 
     def get(self, key):
+
+        if not isinstance(key, Key):
+            key = Key(key)
+
         currentNode = self.__root
 
         while currentNode != None:
