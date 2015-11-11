@@ -23,6 +23,8 @@ class BinarySearchTree(object):
             node.right = self.__put(node.right, key, value)
         else: 
             node.value = value
+
+        node.count = 1 + self.__size(node.left) + self.__size(node.right);
         
         return node
 
@@ -43,6 +45,56 @@ class BinarySearchTree(object):
                 return currentNode.value
 
         return None
+
+    def floor(self, key):
+        if not isinstance(key, Key):
+            key = Key(key)
+
+        x = self.__floor(self.__root, key)
+        if x == None:
+            return None
+        return x.key
+
+    def __floor(self, node, key):
+
+        if node == None:
+            return None
+
+        result = key.compareTo(node.key)
+
+        if result == 0:
+            return node
+        elif result < 0:
+            return self.__floor(node.left, key)
+
+        t = self.__floor(node.right, key)
+
+        if t != None:
+            return t;
+        else:
+            return node
+
+    def size(self):
+        return self.__size(self.__root)
+
+    def __size(self, node):
+        if node == None:
+            return 0
+        return node.count
+
+    def isEmpty(self):
+        return self.size() == 0
+
+    def min(self):
+        if self.isEmpty(): 
+            raise ValueError("min() foi chamado com arvore vazia")
+        return self.__min(self.__root).key
+
+    def __min(self, node):
+        if node.left == None:
+            return node
+        else:
+            return self.__min(node.left)
 
     def delete(self, key):
         raise NotImplementedError

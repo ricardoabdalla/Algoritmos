@@ -6,6 +6,7 @@ class Node(object):
     value = None
     left = None
     right = None
+    count = 1
 
     def __init__(self, key, value):
 
@@ -14,7 +15,4 @@ class Node(object):
 
         self.key = key
         self.value = value
-
-    #def key(self):
-    #    return self.__key
         
